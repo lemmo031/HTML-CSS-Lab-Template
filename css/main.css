@@ -22,5 +22,30 @@ img {
         list-style-type: none;
         margin: 0;
         padding: 0;
+        overflow: hidden;
 
+}
+
+#navigationBar li {
+    display: inline;
+
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+#body {
+    padding:10px;
+    padding-bottom:60px;   /* Height of the footer */
+}
+
+#footer {
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:40px;   /* Height of the footer */
+    background:#6cf;
 }
